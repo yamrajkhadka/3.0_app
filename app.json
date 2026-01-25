@@ -1,28 +1,32 @@
 {
   "expo": {
-    "name": "LexNepalApp",
-    "slug": "LexNepalApp",
+    "name": "LexNepal AI",
+    "slug": "lexnepal-ai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "lexnepalapp",
+    "scheme": "lexnepalai",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "owner": "yamraj047",
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#2563eb"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yamraj047.lexnepalai"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "package": "com.yamraj047.lexnepalai",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6eb46cc6-cc9d-4a0e-837c-fec4bddee6cb"
+      }
     }
   }
 }
