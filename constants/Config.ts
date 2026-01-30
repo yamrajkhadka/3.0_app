@@ -1,5 +1,5 @@
 export const API_CONFIG = {
-  BASE_URL: 'https://yamraj047-lexnepal-api.hf.space/query',
+  BASE_URL: ' https://yamraj047-api-problem-fix.hf.space/query',
   TIMEOUT: 180000,
   MAX_RETRIES: 3,
 };
